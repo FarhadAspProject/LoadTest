@@ -29,7 +29,7 @@ namespace StressTest
 
             while (!quitEvent.WaitOne(0))
             {
-                string url = "http://www.google.com.ua/images/srpr/logo3w.png";
+                string url = "http://hosting_url/api/images/user_image.png";
                 var get = (HttpWebRequest)WebRequest.Create(url);
                 get.Proxy = null;
                 get.KeepAlive = true;
